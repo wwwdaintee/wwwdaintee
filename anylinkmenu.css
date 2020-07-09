@@ -1,0 +1,115 @@
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+	height: auto;
+	width: auto;
+
+}
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkmenu{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	line-height: 25px;
+	z-index: 100;
+	width: 190px; /* default width for menu */
+	background-color: #D70000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFF;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.anylinkmenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: #FFF;
+	text-indent: 8px;
+}
+
+.anylinkmenu ul li a{
+	width: 85%;
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-indent: 5px;
+	border-bottom-width: 0.5pt;
+	border-bottom-style: solid;
+	border-bottom-color: #FFCCCC;
+	z-index: 99;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 0;
+	position: relative;
+}
+
+.anylinkmenu a:hover{ /*hover background color*/
+	color: #000;
+	background-color: #FFF;
+	width: 190px;
+	margin-left: auto;
+	text-indent: 8px;
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkmenucols{
+	position: absolute;
+	width: 190px;
+	left: 0px;
+	top: 0;
+	visibility: hidden;
+	padding: 10px;
+	z-index: 100;
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-indent: 8px;
+}
+
+.anylinkmenucols li{
+	padding-bottom: 3px;
+	text-indent: 8px;
+}
+
+.anylinkmenucols .column{
+	float: left;
+	padding: 3px 8px;
+	margin-right: 5px;
+	background-color: #FFFFFF;
+	text-indent: 8px;
+}
+
+.anylinkmenucols .column ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-indent: 8px;
+}
+
+
+
+/* ######### class for shadow DIV ######### */
+
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	visibility: hidden;
+	background-color: #999;
+}
